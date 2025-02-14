@@ -1,35 +1,13 @@
-body {
-    background: #12141D;
-    color: white;
-    font-family: Montserrat, sans-serif;
-    text-align: center;
-}
-
+/* Contenedor principal */
 .container {
     width: 1280px;
     height: 832px;
-    margin: 0 auto;
     position: relative;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.header {
-    width: 100%;
-    height: 173px;
     background: #12141D;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.button {
-    width: 150px;
-    height: 50px;
-    position: absolute;
-    top: 61px;
-    right: 100px;
-    border-radius: 30px;
-    mix-blend-mode: hue;
-}
-
+/* Imagen de perfil */
 .profile-image {
     width: 202px;
     height: 234px;
@@ -38,40 +16,78 @@ body {
     top: 308px;
 }
 
+/* Barra superior */
+.header {
+    width: 1280px;
+    height: 173px;
+    position: absolute;
+    top: 0;
+    background: #12141D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Contenedor de habilidades */
 .skills {
     position: absolute;
+    left: 361px;
     top: 74px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
-.skills span {
+.skill {
     color: #00D26E;
     font-size: 20px;
+    font-family: Montserrat;
     font-weight: 600;
-    margin: 0 15px;
+    word-wrap: break-word;
+    display: inline-block;
+    margin-right: 20px;
 }
 
+/* Nombre */
 .name {
+    width: 413px;
+    height: 55px;
+    position: absolute;
+    left: 122px;
+    top: 353px;
+    color: white;
     font-size: 45px;
+    font-family: Montserrat;
     font-weight: 700;
-    margin-top: 353px;
+    word-wrap: break-word;
 }
 
+/* Descripción */
 .description {
     width: 420px;
-    margin: 20px auto;
+    position: absolute;
+    left: 127px;
+    top: 421px;
     color: #D3D3D3;
     font-size: 15px;
+    font-family: Montserrat;
     font-weight: 500;
+    word-wrap: break-word;
 }
 
-.icon-container {
+/* Icono de círculo */
+.circle-icon {
+    width: 50px;
+    height: 50px;
     position: absolute;
+    left: 127px;
     top: 531px;
-    left: 199px;
 }
 
-.github-icon {
-    fill: white;
+.circle-icon div:first-child {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50px;
+}
+
+.circle-icon svg {
+    position: absolute;
+    left: 10.42px;
+    top: 10.42px;
 }
