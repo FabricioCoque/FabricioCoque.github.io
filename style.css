@@ -1,93 +1,60 @@
-/* Contenedor principal */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container {
-    width: 1280px;
-    height: 832px;
-    position: relative;
-    background: #12141D;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1280px;
+  height: 832px;
+  position: relative;
+  background: #12141D;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* Imagen de perfil */
-.profile-image {
-    width: 202px;
-    height: 234px;
-    position: absolute;
-    left: 834px;
-    top: 308px;
+.img-container {
+  position: absolute;
+  width: 202px;
+  height: 234px;
+  left: 834px;
+  top: 308px;
 }
 
-/* Barra superior */
-.header {
-    width: 1280px;
-    height: 173px;
-    position: absolute;
-    top: 0;
-    background: #12141D;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.svg-container {
+  left: 199px;
+  top: 531px;
+  position: absolute;
 }
 
-/* Contenedor de habilidades */
-.skills {
-    position: absolute;
-    left: 361px;
-    top: 74px;
+.text-green {
+  color: #00D26E;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
 }
 
-.skill {
-    color: #00D26E;
-    font-size: 20px;
-    font-family: Montserrat;
-    font-weight: 600;
-    word-wrap: break-word;
-    display: inline-block;
-    margin-right: 20px;
+.text-white {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  position: absolute;
+  word-wrap: break-word;
 }
 
-/* Nombre */
-.name {
-    width: 413px;
-    height: 55px;
-    position: absolute;
-    left: 122px;
-    top: 353px;
-    color: white;
-    font-size: 45px;
-    font-family: Montserrat;
-    font-weight: 700;
-    word-wrap: break-word;
+.text-grey {
+  color: #D3D3D3;
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  word-wrap: break-word;
 }
 
-/* Descripción */
-.description {
-    width: 420px;
-    position: absolute;
-    left: 127px;
-    top: 421px;
-    color: #D3D3D3;
-    font-size: 15px;
-    font-family: Montserrat;
-    font-weight: 500;
-    word-wrap: break-word;
-}
-
-/* Icono de círculo */
-.circle-icon {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 127px;
-    top: 531px;
-}
-
-.circle-icon div:first-child {
-    width: 50px;
-    height: 50px;
-    background: white;
-    border-radius: 50px;
-}
-
-.circle-icon svg {
-    position: absolute;
-    left: 10.42px;
-    top: 10.42px;
+.button {
+  width: 150px;
+  height: 50px;
+  left: 1067px;
+  top: 61px;
+  position: absolute;
+  mix-blend-mode: hue;
+  border-radius: 30px;
 }
