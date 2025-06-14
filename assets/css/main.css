@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #272727;
+  --background-color: transparent;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: transparent;
