@@ -703,7 +703,7 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
-  mask-image: linear-gradient(black 0%, transparent);
+  mask-image: linear-gradient(black 80%, transparent);
 }
 
 .hero:before {
