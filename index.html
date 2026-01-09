@@ -4,35 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Fabricio Coque Marin</title>
+  <title>Fabricio Coque</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Valera
-  * Template URL: https://bootstrapmade.com/valera-free-bootstrap-theme/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Template Name: MinimalFolio
+  * Template URL: https://bootstrapmade.com/minimalfolio-bootstrap-portfolio-template/
+  * Updated: Aug 05 2025 with Bootstrap v5.3.7
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -40,20 +41,24 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">FC</h1>
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">
+          <img src="assets/img/profile/marca_nombre.png" alt="MinimalFolio" style="height: 800px;  height: auto;">
+        </h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#hero">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -64,82 +69,62 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/Perfil/Fondo Pagina Web (1).png" alt="" data-aos="fade-in" >
-     
-      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
-       <div class="row justify-content-center">
-          <div class="col-lg-6-md-6">
-            <h2 >Fabricio Coque</h2>
-            <p style="color: #73EBEE;"> Análisis | Reporting | Visualización  </p> 
-            <a href="#about" class="btn-get-started">Get Started</a>
+   <!-- Hero Section2 -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center justify-content-center gx-5 gy-5">
+
+          <!-- Imagen primero y centrada -->
+          <div class="col-lg-12 text-center">
+            <figure class="portrait-wrap position-relative d-inline-block" data-aos="fade-down" data-aos-delay="150" style="margin-bottom: 2rem;">
+              <img src="assets/img/profile/Foto_Perfil_1.png" alt="Profile Portrait" class="img-fluid portrait-img" style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+              <figcaption class="visually-hidden">Minimal portrait preview</figcaption>
+            </figure>
           </div>
-          <div class="col-lg-6-md-6">
-            <img src="assets/img/Perfil/Perfil2.png" class="img-fluid" alt=""style="max-width: 220px; height: auto;border-radius: 50%">
-          </div>
-        </div>
-      </div>
 
-    
+          <!-- Texto centrado debajo -->
+          <div class="col-lg-8 text-center">
+            <div class="intro" data-aos="fade-up" data-aos-delay="200">
+              <div class="eyebrow d-inline-flex align-items-center gap-2 mb-3">
+                
+                <span class="text">Bussiness Analyst | Data Analyst</span>
+              </div>
 
+              <h3 class="display-heading mb-3" >
+                Fabricio Coque
+              </h3>
+              
+              
+              <p style="max-width: 550px; margin: 0 auto; text-align: center;">Hola, soy Fabricio. Me especializo en transformar datos en decisiones estratégicas mediante análisis y visualización avanzada.Será un placer ayudarte a transformar tus datos en activos de información .</p>
+              
+              <div class="cta-group" style="margin-top: 15px;">
+                <!-- tu botón aquí -->
+              
 
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Vengo del mundo de la contabilidad, las finanzas y el control. Pero más allá de dominar herramientas, me enfoco</p>
-        <p>en el impacto real que puede tener la información bien estructurada. Diseño informes que no solo visualizan datos, sino que </p>
-        <p>los traducen en comprensión y acción. Lo hago aplicando una lógica de control, una narrativa clara y mejores prácticas analíticas  </p>
-        <p> para detectar, explicar y respaldar decisiones estratégicas. </p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
-            <h4>Habilidades y Conocimientos Tecnicos</h4>
-            <p>Cuando las decisiones y el control se basan en hojas de cálculo dispersas o informes incompletos, es momento de aportar estructura y claridad a tus números.
-                Los datos limpios, categorizados y validados son la base para un análisis confiable y accionable. </p>
-            <h4>Certificaciones :</h4>
-            <a href="https://learn.microsoft.com/es-es/users/fabriciocoque-1236/credentials/209a8b67e9791b84?ref=https%3A%2F%2Fwww.linkedin.com%2F" class="about-btn align-self-center align-self-xl-start" target="_blank"><span>Microsoft Certified: Power BI Data Analyst Associate</span> <i class="bi bi-chevron-right"></i></a>
-            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/U64549R7K3K8" class="about-btn align-self-center align-self-xl-start" target="_blank"><span>Certificado de análisis de datos de Google</span> <i class="bi bi-chevron-right"></i></a>
-          </div>
-          
-          
-
-          <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
-            <div class="row gy-4">
-
-              <div class="col-md-6 icon-box position-relative">
-                <i class="bi bi-filetype-xlsx"></i>
-                <h4><a href="" class="stretched-link">Excel</a></h4>
-                <p>Tablas Dinamicas | Graficos y Cuadros de Mando  Power Query | Power Pivot </p>
-              </div><!-- Icon-Box -->
-
-              <div class="col-md-6 icon-box position-relative">
-                <i class="bi bi-database"></i>
-                <h4><a href="" class="stretched-link">SQL</a></h4>
-                <p>Manipulacion y Limpieza de Datos | Optimizacion | Analisis </p>
-              </div><!-- Icon-Box -->
-
-              <div class="col-md-6 icon-box position-relative">
-                <i class="bi bi-bar-chart-line"></i>
-                <h4><a href="" class="stretched-link">POWER BI</a></h4>
-                <p>Extraccion y Limpieza | Modelamiento de Datos Lenguaje M | DAX | Visualizacion Avanzada </p>
-              </div><!-- Icon-Box -->
-
-              <div class="col-md-6 icon-box position-relative">
-                <i class="devicon-python-plain"></i>
-                <h4><a href="" class="stretched-link">PYTHON</a></h4>
-                <p>Analisis Estadisitco | Pandas | Matplotlib | Analisis Exploratorio</p>
-              </div><!-- Icon-Box -->
+                <div class="cta-group d-flex flex-wrap align-items-center justify-content-center gap-3" data-aos="zoom-in" data-aos-delay="250">
+                  <a href="#portfolio" class="btn btn-ghost" style="background-color: #000000; color: #ffffff; border-color: #000000;">
+                    Portfolio
+                  </a>
+                  <a href="#contact" class="link-underline">
+                    fabriciocoque@outlook.com
+                    <i class="bi bi-envelope ms-2"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="meta mt-4 d-flex flex-wrap align-items-center justify-content-center gap-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="meta-item d-flex align-items-center gap-2">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>Guayaquil, ECU</span>
+                </div>
+                <div class="meta-item d-flex align-items-center gap-2">
+                  <i class="bi bi-circle"></i>
+                  <span>Disponible para  freelance</span>
+                </div>
+                
+              </div>
 
             </div>
           </div>
@@ -148,130 +133,302 @@
 
       </div>
 
+    </section><!-- /Hero Section2 -->
+
+
+
     </section><!-- /About Section -->
 
+    <!-- Skills Section -->
+    <section id="skills" class="skills section " style="background-color: #F8F9FA;">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <pstyle="font-weight: 1000; font-size: 18px;>Aporto con  mis capacidades  para transformar datos en informacion de alto valor</p>
+        
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="150">
+            <article class="skill-block skills-animation">
+              <header class="d-flex align-items-center justify-content-between mb-2">
+                <h3 class="skill-title">Automatización de Reportes</h3>
+                <span class="skill-badge">Advanced</span>
+              </header>
+              <p class="skill-desc" style="color:#999999;">Transformación de  procesos manuales y repetitivos en flujos automáticos,ahorrando horas de trabajo semanal.</p>
+              <div class="progress slim">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <article class="skill-block skills-animation">
+              <header class="d-flex align-items-center justify-content-between mb-2">
+                <h3 class="skill-title">Visualizacion de Datos</h3>
+                <span class="skill-badge">Advanced</span>
+              </header>
+              <p class="skill-desc">Diseño tableros (dashboards) que responden preguntas críticas del negocio para facilitar decisiones rápidas.</p>
+              <div class="progress slim">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
+            <article class="skill-block skills-animation">
+              <header class="d-flex align-items-center justify-content-between mb-2">
+                <h3 class="skill-title">Análisis de Rendimiento (KPIs)</h3>
+                <span class="skill-badge">Pro</span>
+              </header>
+              <p class="skill-desc">Control y monitoreo de las métricas clave que impactan en la rentabilidad y eficiencia de la operación.</p>
+              <div class="progress slim">
+                <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </article>
+          </div>
+        </div><!-- End Skill Row 1 -->
+
+        <div class="row gy-4 mt-1">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="150">
+            <article class="skill-block skills-animation">
+              <header class="d-flex align-items-center justify-content-between mb-2">
+                <h3 class="skill-title">Auditoría y saneamiento de datos</h3>
+                <span class="skill-badge">PRO</span>
+              </header>
+              <p class="skill-desc">Transformar datos "sucios" en activos de información confiables, íntegros y listos para cualquier análisis posterior.</p>
+              <div class="progress slim">
+                <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <article class="skill-block skills-animation">
+              <header class="d-flex align-items-center justify-content-between mb-2">
+                <h3 class="skill-title">Análisis Exploratorio</h3>
+                <span class="skill-badge">Pro</span>
+              </header>
+              <p class="skill-desc">Analisis de conjuntos de datos para identificar patrones de comportamiento, tendencias y cuellos de botella operativos</p>
+              <div class="progress slim">
+                <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="250">
+            <article class="skill-block skills-animation">
+              <header class="d-flex align-items-center justify-content-between mb-2">
+                <h3 class="skill-title">Comunicación Estratégica</h3>
+                <span class="skill-badge">Advanced</span>
+              </header>
+              <p class="skill-desc">Presentación de resultados clave de manera clara y directa para audiencias directivas.</p>
+              <div class="progress slim">
+                <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </article>
+          </div>
+        </div><!-- End Skill Row 2 -->
+
+        <div class="row gx-5 gy-4 mt-5 align-items-center alt-grid">
+          <div class="col-lg-5 order-lg-2" data-aos="fade-left" data-aos-delay="150">
+            <div class="soft-card p-4 rounded-2">
+              <h4 class="mini-head mb-3">Herramientas</h4>
+              <ul class="list-unstyled tool-list mb-0">
+                <li class="d-flex align-items-center gap-2"><i class="bi bi-file-earmark-spreadsheet"></i><span>Excel : Power Query , Macros, Tablas Dinamicas</span></li>
+                <li class="d-flex align-items-center gap-2"><i class="bi bi-bar-chart-fill"></i><span>Power BI (Microsoft Certified Data Analyst )</span></li>
+                <li class="d-flex align-items-center gap-2"><i class="bi bi-database"></i><span>SQL</span></li>
+                <li class="d-flex align-items-center gap-2"><i class="bi bi-filetype-py"></i><span>Python: Pandas , Matplotlib , Numpy</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-7 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <div class="note">
+              <p class="mb-0">Cada herramienta cumple un rol crítico: desde la extracción y limpieza profunda de información hasta la automatización de procesos y la creación de tableros interactivos. Mi enfoque es elegir la herramienta adecuada para cada reto, garantizando resultados eficientes y fáciles de interpretar.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section id="portfolio" class="portfolio section" style="background-color: #ffffff;">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Explora algunos de los proyectos que he desarrollado con Power BI, SQL y Python</p>
+        <pstyle="font-weight: 1000; font-size: 18px;>Explora algunos proyectos en los que he estado trabajando</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">SQL</li>
-            <li data-filter=".filter-product">Power BI</li>
-            <li data-filter=".filter-branding">Python</li>
-          </ul><!-- End Portfolio Filters -->
+          <div class="portfolio-filters-wrapper" data-aos="fade-up" data-aos-delay="100">
+            <ul class="portfolio-filters isotope-filters">
+              <li data-filter="*" class="filter-active">All Projects</li>
+              <li data-filter=".filter-branding">Dashboards para Toma de Decisiones</li>
+              <li data-filter=".filter-web">Analisis Exploratorio</li>
+              <li data-filter=".filter-print">Automatización y Eficiencia Operativa</li>
+              
+            </ul>
+          </div>
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/SQL 1.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>SQL</h4>
-                  <p>Base de Datos Homicidios Intencionales</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="SQL" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://github.com/FabricioCoque/Muertes-Violentas-Ecuador" title="Repositorio Github" class="details-link" target="_blank"><i class="bi bi-github"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/Miniatura Ventas.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>POWER BI</h4>
-                  <p>Analisis de Ventas</p>
-                  <a href="assets/img/portfolio/Analisis de Venta.gif" title="Este dashboard está compuesto por tres secciones clave para el análisis comercial. La primera ofrece una visión general del negocio con indicadores como ventas totales, ticket promedio, valor medio por factura y cantidad de ítems vendidos. La segunda sección presenta un análisis ABC por producto, detallando estos mismos indicadores para identificar los artículos más relevantes. Finalmente, la tercera sección se enfoca en la gestión de clientes, mostrando la evolución de nuevos, recuperados, fidelizados y perdidos, brindando una perspectiva completa del comportamiento y retención de la cartera." data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://app.powerbi.com/view?r=eyJrIjoiMmU1ZmMxNzctOWFlMi00YTM4LWJiMjQtODk1ZDg0ZDFmNmY0IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSectione2384563c41453045972" title="Panel Interactivo" class="details-link" target="_blank"><i class="bi bi-bar-chart-line"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/Miniaturea_Cobros y Pagos.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>POWER BI</h4>
-                  <p>Gestion de Tesoreria</p>
-                  <a href="assets/img/portfolio/Miniatura_Cobros.png" title="POWER BI" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://app.powerbi.com/view?r=eyJrIjoiZDhkM2Q3OGQtOTQ1NC00YjEyLWFlZTUtZjZkNjY2MGM5NGI2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" title="Panel Interactivo" class="details-link" target="_blank"><i class="bi bi-bar-chart-line"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/Miniaturea_Cartera.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>POWER BI</h4>
-                  <p>Control de Morosidad y Cartera</p>
-                  <a href="assets/img/portfolio/Gestion de Cartera.gif" title="Este reporte de Power BI presenta un análisis detallado del estado de la cartera de clientes, destacando el comportamiento de pago y el riesgo crediticio. A través de visualizaciones tipo cascada en formato IBCS, se comparan los saldos facturados, cobrados y pendientes, permitiendo identificar de forma clara la brecha de recaudación.Se ha incorporado una segmentación dinámica por nivel de riesgo (alto, medio y bajo) basado en los días de vencimiento, así como un panel con el detalle individual del cliente, sus facturas vencidas y un score de mora categorizado por colores." data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://app.powerbi.com/view?r=eyJrIjoiMjQ5NTk1YmYtNmQxYi00MzYzLThjNzYtNGRjYzAwNTQwY2I1IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" title="Panel Interactivo" class="details-link" target="_blank"><i class="bi bi-bar-chart-line"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/MARKETING.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>POWER BI</h4>
-                  <p>Campaña Email Marketing</p>
-                  <a href="assets/img/portfolio/E3.png" title="POWER BI" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://app.powerbi.com/view?r=eyJrIjoiZTgxMTY3NTAtZDNkMC00NzYwLTkyNTYtMTliZTljZmE3OTBlIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" title="Panel Interacitvo" class="details-link" target="_blank"><i class="bi bi-bar-chart-line"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/Miniatura_Escuela.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>POWER BI</h4>
-                  <p>Educacion Publica</p>
-                  <a href="assets/img/portfolio/Escuela.png" title="POWER BI data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://app.powerbi.com/view?r=eyJrIjoiM2U2NDczMjYtMjc4Yy00MDgwLWEwMTktNmMxYTY0NGZlN2E2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection9c7f18e40b7aa585e6eb" title="Panel Interactivo" class="details-link" target="_blank"><i class="bi bi-bar-chart-line"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+          <div class="row gy-4 portfolio-grid isotope-container" data-aos="fade-up" data-aos-delay="200">
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/Desercion_Escolar.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>PYTHON</h4>
-                  <p>Analisis de Desercion Escolar Ecuador</p>
-                  <a href="assets/img/portfolio/branding-1.jpg" title="PYTHON" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://github.com/FabricioCoque/Analisis_Desercion_Escolar_Ecuador/tree/main" title="Repositorio Completo" class="details-link" target="_blank"><i class="bi bi-github"></i></a>
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/Miniaturea_Cartera_2.png" class="img-fluid" alt="Brand Identity" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/Miniaturea_Cartera_2.png" class="glightbox zoom-link" title="Brand Identity Project">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                      <a href="ControlMorosidad.html" class="details-link" title="View Project Details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3 >Control y Morosidad de Cartera</h3>
+                  
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
+
             
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/PDF--EXCEL.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>PYTHON</h4>
-                  <p>Automatizacion de reportes Pdf a Excel</p>
-                  <a href="assets/img/portfolio/app.JPG" title="PYTHON" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="https://github.com/FabricioCoque/Automatizaci-n-de-Extracci-n-de-Datos-de-Facturas-PDF-a-Excel" title="Repositorio Completo" class="details-link" target="_blank"><i class="bi bi-github"></i></a>
+
+           
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/PDF--EXCEL.png" class="img-fluid" alt="Magazine Design" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/PDF--EXCEL.png" class="glightbox zoom-link" title="Magazine Design">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                      <a href="https://github.com/Fabricio-BI/Automatizaci-n-de-Reportes-PDF-a-Excel" class="details-link" title="View Project Details" target="_blank">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Automatizacion de Facturas  PDF a Excel</h3>
+                  
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-          </div><!-- End Portfolio Container -->
+            
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/Ventas.png" class="img-fluid" alt="Logo Collection" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/Ventas.png" class="glightbox zoom-link" title="Logo Collection">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                      <a href="Analisis Ventas.html" class="details-link" title="View Project Details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Panel de Inteligencia Comercial</h3>
+                  
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/Muertes Violentas.png" class="img-fluid" alt="Mobile App Design" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/Muertes Violentas.png" class="glightbox zoom-link" title="Mobile App Design">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                      <a href="https://github.com/Fabricio-BI/Muertes_Violentas_Ecuador" class="details-link" title="View Project Details" target="_blank">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Analisis de Muertes Violentas</h3>
+                  
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/Miniaturea_Cobros y Pagos.png" class="img-fluid" alt="Logo Collection" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/Miniaturea_Cobros y Pagos.png" class="glightbox zoom-link" title="Logo Collection">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                      <a href="Gestion de Cobros.html" class="details-link" title="View Project Details">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Gestion de Cobros</h3>
+                 
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/Desercion_Escolar.png" class="img-fluid" alt="E-commerce Platform" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/Desercion_Escolar.png" class="glightbox zoom-link" title="E-commerce Platform">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                      <a href="https://github.com/Fabricio-BI/Desercion-Escolar-Ecuador" class="details-link" title="View Project Details" target="_blank">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Analisis de Desercion Escolar</h3>
+                  
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            
+
+      
+
+           
+
+          </div><!-- End Portfolio Grid -->
 
         </div>
 
@@ -279,47 +436,51 @@
 
     </section><!-- /Portfolio Section -->
 
+   
+
     
 
+    
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+  <footer id="footer" class="footer">
+
     <div class="container">
-      <h3 class="sitename">Contactame</h3>
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Fabricio Coque </strong> <span>All Rights Reserved</span></p>
+      </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-envelope"></i></a>
+        <a href=""><i class="bi bi-github"></i></a>
         <a href=""><i class="bi bi-youtube"></i></a>
-        <a href="https://github.com/FabricioCoque"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/fabriciocoque/"><i class="bi bi-linkedin"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
       </div>
-      <div class="container">
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          
-        </div>
-      </div>
+      
     </div>
+
   </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
-  <div id="preloader"></div>
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
