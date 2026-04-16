@@ -1,0 +1,23 @@
+
+
+<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/Desercion_Escolar.png" class="img-fluid" alt="E-commerce Platform" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/Desercion_Escolar.png" class="glightbox zoom-link" title="E-commerce Platform">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                      <a href="https://github.com/Fabricio-BI/Desercion-Escolar-Ecuador" class="details-link" title="View Project Details" target="_blank">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Analisis de Desercion Escolar</h3>
+                  
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
